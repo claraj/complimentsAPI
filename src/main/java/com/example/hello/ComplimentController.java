@@ -13,22 +13,26 @@ import java.util.Random;
 
 @RestController
 public class ComplimentController {
-    
+
     private Compliment[] compliments = {
             new Compliment("You look nice today"),
             new Compliment("Your code is awesome!"),
             new Compliment("I'm so happy to see you!"),
             new Compliment("I hope you have a great day!"),
-            new Compliment("Super fun to code with you!")
+            new Compliment("Super fun to code with you!"),
+            new Compliment("You are a smart cookie!"),
+            new Compliment("On a scale of 1 to 10, you are an 11!"),
+            new Compliment("You are a ray of sunshine!"),
+            new Compliment("Thanks for being you!")  
     };
-    
+
     private Random rnd = new Random();
-    
-    
+
+
     @RequestMapping("/random")
     ResponseEntity<Compliment> randomCompliment() {
       Compliment randomCompliment = compliments[rnd.nextInt(compliments.length)];
       return new ResponseEntity<>(randomCompliment, HttpStatus.OK);
     }
-    
+
 }
