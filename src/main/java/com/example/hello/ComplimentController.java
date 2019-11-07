@@ -40,7 +40,11 @@ public class ComplimentController {
             new Compliment("You are breathtaking!"),
             new Compliment("You are inspiring!"),
             new Compliment("You are so smart!"),
-            
+            new Compliment("You’ve Got All The Right Moves!"),
+            new Compliment("You Always Know How To Find That Silver Lining."),
+            new Compliment("You Are So Wise."),
+            new Compliment("Your Positive Attitude Is Infectious."),
+            new Compliment("You Have A Mind For Detail."),
     };
 
     private Random rnd = new Random();
