@@ -1,4 +1,4 @@
-# compliments_API
+# Compliments API
 
 This API returns a random compliment. 
 
