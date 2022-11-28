@@ -2,7 +2,7 @@
 
 This API returns a random compliment. 
 
-It has one endpoint: https://random-compliment.herokuapp.com/random 
+It has one endpoint: /random 
 
 Which returns JSON in this form,
 
